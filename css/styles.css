@@ -1,0 +1,170 @@
+#title {
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+body {
+  font-family: 'Montserrat';
+}
+
+.container-fluid {
+  padding: 3% 15%;
+}
+
+h1 {
+  font-weight: 900;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+/* nav bar */
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  font-family: 'Ubuntu';
+  font-weight: bold;
+  font-size: 2.5rem;
+}
+
+.nav-item {
+  padding: 0, 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-weight: 300;
+}
+
+/* download-button */
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+/* title_image */
+.title-image {
+
+  width: 65%;
+  transform: rotate(25deg);
+  position: absolute;
+
+
+}
+
+/* about something someging  */
+#features {
+  padding: 7% 15%;
+  background-color: #fff;
+  position: relative;
+  z-index: 1
+}
+.fool {
+  text-align: center;
+  padding: 5%;
+}
+
+.about h3 {
+  font-weight: bold;
+}
+
+.about p {
+  color: #8f8f8f;
+}
+
+.ticks {
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+
+.ticks:hover {
+  color: #ff4c68;
+}
+
+
+
+/* testimonial session */
+#testimonials {
+  text-align: center;
+  background-color: #ef8172;
+  color: #fff;
+
+
+}
+
+h2 {
+  font-weight: bold;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+#press {
+  background-color: #ef8172;
+  padding: 3%;
+  text-align: center;
+}
+
+.press-logo {
+  width: 15%;
+  padding: 20px 20px 50px 20px;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+#pricing{
+  padding: 100px;
+  text-align: center;
+}
+
+.pricing-card{
+  padding: 3% 5%;
+
+}
+@media (max-width: 1028px) {
+  .title-image {
+
+    width: 65%;
+    transform: rotate(0deg);
+    position: static;
+
+
+  }
+  #title{
+    text-align: center;
+    align-items: center;
+  }
+}
+ #cta h3{
+
+  text-align: center;
+  font-family: "Montserrat";
+  font-size: 3rem;
+  font-weight: 900;
+  color: white;
+
+}
+#cta{
+  padding-top: 4rem;
+  background-color: #ef8172;
+  text-align: center;
+}
+#footer{
+  text-align: center;
+  font-weight: bold;
+  color:  #8f8f8f;
+  margin:  3rem;
+
+}
+.icon{
+  color: black;
+  padding: 3px;
+  margin-bottom: 1.5rem;
+}
